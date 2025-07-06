@@ -1,0 +1,152 @@
+# =============================================================================
+# BREXIT-RELATED UNCERTAINTY INDEX (BRUI) REQUIREMENTS
+# =============================================================================
+# Professional requirements.txt file for implementing the Context-Aware 
+# Uncertainty Attribution Algorithm as described in the LaTeX methodology.
+#
+# This file specifies exact versions for reproducible research environments
+# and ensures compatibility across the entire BRUI implementation pipeline.
+#
+# Author: CS Chirinda
+# Date: 2025-07-06
+# Standard: PEP-8 compliant package specification
+# =============================================================================
+
+# =============================================================================
+# CORE DATA SCIENCE STACK
+# =============================================================================
+# Numerical computing and array operations
+numpy>=1.24.0,<2.0.0
+
+# Data manipulation and analysis framework
+pandas>=2.0.0,<3.0.0
+
+# Statistical computing and hypothesis testing
+scipy>=1.10.0,<2.0.0
+
+# =============================================================================
+# NATURAL LANGUAGE PROCESSING STACK
+# =============================================================================
+# Comprehensive NLP toolkit for tokenization, stopword removal, and n-grams
+nltk>=3.8.0,<4.0.0
+
+# Advanced NLP library with large language model support
+spacy>=3.6.0,<4.0.0
+
+# SpaCy English language model (large) - critical for NER and contextual analysis
+# Note: This must be installed separately via: python -m spacy download en_core_web_lg
+# en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.6.0/en_core_web_lg-3.6.0-py3-none-any.whl
+
+# =============================================================================
+# ECONOMETRIC AND TIME SERIES ANALYSIS
+# =============================================================================
+# Statistical models and econometric analysis
+statsmodels>=0.14.0,<1.0.0
+
+# Pattern matching library (patsy) - statsmodels dependency
+patsy>=0.5.3,<1.0.0
+
+# =============================================================================
+# VISUALIZATION AND PLOTTING
+# =============================================================================
+# Publication-quality plotting library
+matplotlib>=3.7.0,<4.0.0
+
+# Statistical data visualization
+seaborn>=0.12.0,<1.0.0
+
+# =============================================================================
+# PDF PROCESSING AND TEXT EXTRACTION
+# =============================================================================
+# High-performance PDF text extraction library
+PyMuPDF>=1.23.0,<2.0.0
+
+# Alternative PDF processing library (fallback)
+PyPDF2>=3.0.0,<4.0.0
+
+# =============================================================================
+# WEB SCRAPING AND DATA ACQUISITION
+# =============================================================================
+# HTTP library for API requests and web scraping
+requests>=2.31.0,<3.0.0
+
+# Web scraping framework
+beautifulsoup4>=4.12.0,<5.0.0
+
+# HTML/XML parsing library
+lxml>=4.9.0,<5.0.0
+
+# =============================================================================
+# DATA VALIDATION AND QUALITY ASSURANCE
+# =============================================================================
+# Data validation library
+cerberus>=1.3.4,<2.0.0
+
+# Schema validation for data structures
+jsonschema>=4.17.0,<5.0.0
+
+# =============================================================================
+# PERFORMANCE AND OPTIMIZATION
+# =============================================================================
+# Numerical optimization library
+numba>=0.57.0,<1.0.0
+
+# Parallel computing support
+joblib>=1.3.0,<2.0.0
+
+# =============================================================================
+# DEVELOPMENT AND TESTING DEPENDENCIES
+# =============================================================================
+# Unit testing framework
+pytest>=7.4.0,<8.0.0
+
+# Code coverage analysis
+pytest-cov>=4.1.0,<5.0.0
+
+# Type checking
+mypy>=1.5.0,<2.0.0
+
+# Code formatting
+black>=23.7.0,<24.0.0
+
+# Import sorting
+isort>=5.12.0,<6.0.0
+
+# Linting
+flake8>=6.0.0,<7.0.0
+
+# =============================================================================
+# JUPYTER NOTEBOOK SUPPORT (OPTIONAL)
+# =============================================================================
+# Interactive computing environment
+jupyter>=1.0.0,<2.0.0
+
+# Jupyter Lab interface
+jupyterlab>=4.0.0,<5.0.0
+
+# =============================================================================
+# MEMORY MANAGEMENT AND LARGE DATASET HANDLING
+# =============================================================================
+# Memory-efficient data structures
+pyarrow>=12.0.0,<14.0.0
+
+# Out-of-core dataframe operations
+dask>=2023.7.0,<2024.0.0
+
+# =============================================================================
+# CONFIGURATION AND ENVIRONMENT MANAGEMENT
+# =============================================================================
+# Environment variable management
+python-dotenv>=1.0.0,<2.0.0
+
+# Configuration file parsing
+configparser>=5.3.0,<6.0.0
+
+# =============================================================================
+# LOGGING AND MONITORING
+# =============================================================================
+# Structured logging
+structlog>=23.1.0,<24.0.0
+
+# Progress bars for long-running operations
+tqdm>=4.65.0,<5.0.0
