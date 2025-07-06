@@ -275,3 +275,7 @@ GitHub repository: https://github.com/chirindaopensource/brexit_uncertainty_inde
 
 -   Credit to Ismet Gocer, Julia Darby, and Serdar Ongan for their novel methodology in constructing a context-aware uncertainty index.
 -   Thanks to the developers of the `statsmodels`, `pandas`, `spacy`, and `nltk` libraries, which are the foundational pillars of this analytical pipeline.
+
+--
+
+*This README was generated based on the structure and content of `brexit_related_uncertainty_index_draft.ipynb` and follows best practices for research software documentation.*
